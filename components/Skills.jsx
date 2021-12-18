@@ -7,8 +7,8 @@ import LinksIcon from '../public/assets/links.png'
 const Skills = () => {
   return (
     <div className="gradient flex flex-col items-center pb-16">
-      <div className="card flex flex-col items-center -mt-28 content-big text-center font-light">
-        <div className="py-4">
+      <div className="card max-w-2xl -mt-28 content-big text-center font-light pb-10">
+        <div className="mt-6">
           <Image
             width={40}
             height={40}

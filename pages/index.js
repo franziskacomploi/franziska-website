@@ -2,7 +2,7 @@ import Head from 'next/head'
 import About from '../components/About.jsx'
 import Hero from '../components/Hero.jsx'
 import Footer from '../components/layout/Footer.jsx'
-import Menu from '../components/layout/Menu.jsx'
+import Menu from '../components/layout/menu/Menu.jsx'
 import Projects from '../components/Projects.jsx'
 import Skills from '../components/Skills.jsx'
 

@@ -20,6 +20,24 @@
   }
 
   .card {
-    @apply bg-white md:w-1/2 p-4 rounded-2xl shadow;
+    @apply bg-white md:w-1/2 p-4 
+      rounded-2xl shadow
+      flex flex-col items-center;
+  }
+
+  .button-gradient {
+    @apply mt-6 px-8 py-4 rounded-xl gradient text-white font-bold;
+  }
+
+  .underline-gradient {
+    border-style: solid;
+    border-image-slice: 1;
+    border-bottom-width: 5px;
+
+    border-image-source: linear-gradient(
+      to left,
+      rgba(240, 118, 131, 1) 27%,
+      rgba(248, 200, 108, 1) 100%
+    );
   }
 }
