@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import About from '../components/About.jsx'
 import Hero from '../components/Hero.jsx'
-import Menu from '../components/Menu.jsx'
+import Footer from '../components/layout/Footer.jsx'
+import Menu from '../components/layout/Menu.jsx'
 import Projects from '../components/Projects.jsx'
 import Skills from '../components/Skills.jsx'
 
@@ -21,7 +22,9 @@ const Home = () => {
         <Projects />
       </main>
 
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }

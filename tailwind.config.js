@@ -16,6 +16,7 @@ module.exports = {
       rosa: '#FDC5BC',
       yellow: '#F8C86C',
       white: '#FFF',
+      dark: '#232026',
     },
     extend: {},
   },
