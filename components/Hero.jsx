@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import heroImage from '../public/assets/hero-image.jpg'
 
-const Hero = () => {
+const Hero = ({ showBanner }) => {
   return (
     <>
       <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 my-16">
@@ -30,24 +30,25 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      <div className="content-big flex flex-col md:flex-row gap-4 items-center justify-evenly bg-beige text-center pt-16">
-        <div>
-          Based in
-          <br />
-          <span className="font-bold">Potsdam, Germany</span>
+      {showBanner && (
+        <div className="content-big flex flex-col md:flex-row gap-4 items-center justify-evenly bg-beige text-center pt-16">
+          <div>
+            Based in
+            <br />
+            <span className="font-bold">Potsdam, Germany</span>
+          </div>
+          <div>
+            Experience
+            <br />
+            <span className="font-bold">1+ Years</span>
+          </div>
+          <div>
+            Focused on
+            <br />
+            <span className="font-bold">Frontend & DevOps</span>
+          </div>
         </div>
-        <div>
-          Experience
-          <br />
-          <span className="font-bold">1+ Years</span>
-        </div>
-        <div>
-          Focused on
-          <br />
-          <span className="font-bold">Frontend & DevOps</span>
-        </div>
-      </div>
+      )}
     </>
   )
 }
