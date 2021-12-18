@@ -14,13 +14,15 @@ const Hero = () => {
             Pendzialek
           </div>
         </div>
-        <Image
-          width={300}
-          height={300}
-          src={heroImage}
-          alt="franziska-profile-image"
-          className="rounded-full"
-        />
+        <div className="w-80 h-80 rounded-full bg-redpink shadow flex flex-row items-center justify-center">
+          <Image
+            width={300}
+            height={300}
+            src={heroImage}
+            alt="franziska-profile-image"
+            className="rounded-full"
+          />
+        </div>
         <div className="border-l-2">
           <div className="content-big font-light py-4 ml-4 w-72">
             {`I'm a software developer that transitioned from Marketing to Tech.

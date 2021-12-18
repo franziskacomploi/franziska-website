@@ -4,7 +4,7 @@
 
 @layer components {
   .headline-xl {
-    @apply text-7xl font-serif;
+    @apply text-6xl md:text-7xl font-serif;
   }
 
   .content-big {
@@ -20,6 +20,6 @@
   }
 
   .card {
-    @apply bg-white w-1/2 p-6 rounded-2xl shadow;
+    @apply bg-white md:w-1/2 p-4 rounded-2xl shadow;
   }
 }

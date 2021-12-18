@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div className="gradient flex flex-col items-center pb-16">
       <div className="card flex flex-col items-center -mt-28 content-big text-center font-light">
-        <div className="mb-2 mt-10">
+        <div className="py-4">
           <Image
             width={40}
             height={40}
