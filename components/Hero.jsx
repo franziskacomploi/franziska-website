@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import heroImage from '../public/assets/hero-image.jpg'
+import heroImage from '../public/assets/hero-image.jpeg'
 
 const Hero = ({ showBanner }) => {
   return (
