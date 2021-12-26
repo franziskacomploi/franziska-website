@@ -15,14 +15,8 @@ const ProjectCard = ({ title, emoji, description, link, codeLink }) => {
           Go to Project
         </a>
         {codeLink && (
-          <a href={codeLink}>
-            <Image
-              width={30}
-              height={30}
-              src={GithubIcon}
-              alt="project-on-github"
-              className="color-dark"
-            />
+          <a href={codeLink} className="underline-gradient cursor-pointer">
+            Go to Code
           </a>
         )}
       </div>

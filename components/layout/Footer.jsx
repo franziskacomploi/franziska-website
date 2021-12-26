@@ -13,7 +13,7 @@ const Footer = () => {
             height={30}
             src={LinkedinIcon}
             alt="skills-franziska"
-            className="color-dark"
+            className="color-beige"
           />
         </a>
         <a href="https://github.com/franziskapendzialek">
