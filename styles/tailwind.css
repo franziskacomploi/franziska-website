@@ -26,7 +26,7 @@
   }
 
   .button-gradient {
-    @apply mt-6 px-8 py-4 rounded-xl gradient text-white font-bold;
+    @apply mt-6 px-8 py-4 rounded-xl gradient text-white font-bold cursor-pointer;
   }
 
   .underline-gradient {

@@ -5,6 +5,7 @@ import flinkLogo from '../public/assets/flink.jpeg'
 import flinkPost from '../public/assets/flink.png'
 import ironhackLogo from '../public/assets/ironhack.jpeg'
 import fileeeLogo from '../public/assets/fileee.jpeg'
+import Link from 'next/link'
 
 const Experiences = () => {
   return (
@@ -98,6 +99,9 @@ const Experiences = () => {
             Contributed to the training of an AI
           </div>
         </div>
+        <Link href="/contact">
+          <a className="button-gradient my-4">Contact me</a>
+        </Link>
       </div>
     </div>
   )
