@@ -17,6 +17,13 @@ const Projects = () => {
         link="https://star-caption-d78.notion.site/Coding-Library-d6a4866dd1584d2bb2899af396d02c01"
       />
       <ProjectCard
+        title="Weather API App"
+        emoji="🌤"
+        description="A web application for weather forecasts created with React.js, Tailwind and Axios."
+        link="https://weather-api-project.vercel.app/"
+        codeLink="https://github.com/franziskapendzialek/weather-api-project"
+      />
+      <ProjectCard
         title="Plant Nerd"
         emoji="🌱"
         description="A web application created mainly with Node.js, Express and MongoDB 

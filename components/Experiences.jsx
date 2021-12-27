@@ -11,7 +11,7 @@ const Experiences = () => {
   return (
     <div className="bg-beige pt-28 pb-16">
       <div className="flex flex-col items-center gap-4">
-        <div className="headline-xl text-center my-4">Experience</div>
+        <div className="headline-xl text-center my-4">Experiences</div>
         <div className="content-big text-center font-light mb-4 mx-6 md:mx-auto">
           {`As a woman in Tech, I've got working experience in several projects.`}
         </div>
