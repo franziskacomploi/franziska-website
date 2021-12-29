@@ -19,7 +19,7 @@ const Projects = () => {
       <ProjectCard
         title="Weather API App"
         emoji="🌤"
-        description="A web application for weather forecasts created with React.js, Tailwind and Axios."
+        description="A web application for weather forecasts created with React.js, Tailwind, Axios and REST API."
         link="https://weather-api-project.vercel.app/"
         codeLink="https://github.com/franziskapendzialek/weather-api-project"
       />
