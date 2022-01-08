@@ -7,8 +7,11 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>About Fran</title>
-        <meta name="description" content="A CV website." />
+        <title>Franziska Pendzialek</title>
+        <meta
+          name="description"
+          content="Tech and Coding Portfolio of Franziska Pendzialek"
+        />
       </Head>
       <Menu />
       <main>{children}</main>

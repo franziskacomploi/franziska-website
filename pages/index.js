@@ -1,7 +1,5 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import About from '../components/About.jsx'
-import Experiences from '../components/Experiences.jsx'
 import Hero from '../components/Hero.jsx'
 import Projects from '../components/Projects.jsx'
 import Skills from '../components/Skills.jsx'
@@ -9,14 +7,6 @@ import Skills from '../components/Skills.jsx'
 const Home = () => {
   return (
     <div>
-      <Head>
-        <title>Franziska Pendzialek</title>
-        <meta
-          name="description"
-          content="Tech and Coding Portfolio of Franziska Pendzialek"
-        />
-      </Head>
-
       <Hero showBanner />
       <About />
       <Skills />
