@@ -27,7 +27,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="mt-4">Copyright 2021 Franziska Pendzialek</div>
+      <div className="mt-4">Copyright 2022 Franziska Pendzialek</div>
     </div>
   )
 }
