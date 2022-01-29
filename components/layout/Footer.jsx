@@ -2,6 +2,7 @@ import React from 'react'
 import LinkedinIcon from '../../public/assets/linkedin.svg'
 import GithubIcon from '../../public/assets/github.svg'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -25,6 +26,11 @@ const Footer = () => {
             className="color-dark"
           />
         </a>
+      </div>
+      <div className="mt-4">
+        <Link href="/imprint">
+          <a className="underline-gradient my-2">Imprint</a>
+        </Link>
       </div>
 
       <div className="mt-4">© 2022 Franziska Pendzialek</div>

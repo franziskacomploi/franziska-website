@@ -23,6 +23,9 @@ const Skills = () => {
         <div>Typescript</div>
         <div>Gatsby.js</div>
         <div>MobX</div>
+        <div>RESTful APIs, Graph QL</div>
+        <div>Responsive Websites</div>
+        <div>Command Line, Web Accessibility</div>
         <div className="mb-2 mt-10">
           <Image
             width={30}
