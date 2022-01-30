@@ -45,7 +45,7 @@ const Hero = ({ showBanner }) => {
           <div>
             Focused on
             <br />
-            <span className="font-bold">Frontend & DevOps</span>
+            <span className="font-bold">Frontend & Fullstack</span>
           </div>
         </div>
       )}
