@@ -14,10 +14,7 @@ export const BrandHero = () => {
         alt="codingstuffandcoffee"
         className="rounded-full"
       />
-      <div className="headline-xl text-center leading-relaxed my-4">
-        Coding Stuff <br />& Coffee
-      </div>
-      <div className="content-big text-center md:text-left font-light mb-4 mx-28">
+      <div className="content-big text-center md:text-left font-light mt-4 mx-28">
         My current side-project: A podcast that helps to level up tech knowledge
         and supports more people to start their tech journey - Grab your morning
         coffee and listen! ☕️ Talking about being a newbie in tech, current

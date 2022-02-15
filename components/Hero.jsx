@@ -14,7 +14,7 @@ const Hero = ({ showBanner }) => {
             Pendzialek
           </div>
         </div>
-        <div className="w-80 h-80 rounded-full bg-redpink shadow flex flex-row items-center justify-center">
+        <div className="w-80 h-80 rounded-full bg-darkMint shadow flex flex-row items-center justify-center">
           <Image
             width={300}
             height={300}

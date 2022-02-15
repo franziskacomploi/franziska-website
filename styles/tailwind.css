@@ -13,9 +13,8 @@
   .gradient {
     background: radial-gradient(
       circle,
-      rgba(240, 118, 131, 1) 27%,
-      rgba(236, 148, 39, 1) 61%,
-      rgba(248, 200, 108, 1) 100%
+      rgb(177, 191, 188, 1) 61%,
+      rgb(138, 175, 173, 1) 100%
     );
   }
 
@@ -30,7 +29,7 @@
   }
 
   .button-gradient-small {
-    @apply mt-6 px-6 py-2 rounded-xl bg-redpink text-white font-bold cursor-pointer;
+    @apply mt-6 px-6 py-2 rounded-xl bg-darkMint text-white font-bold cursor-pointer;
   }
 
   .underline-gradient {
@@ -40,8 +39,8 @@
 
     border-image-source: linear-gradient(
       to left,
-      rgba(240, 118, 131, 1) 27%,
-      rgba(248, 200, 108, 1) 100%
+      rgb(177, 191, 188, 1) 27%,
+      rgb(138, 175, 173, 1) 100%
     );
   }
 }
