@@ -32,6 +32,12 @@ const Projects = () => {
           codeLink="https://github.com/franziskapendzialek/space-x-website-rebuild"
         />
         <ProjectCard
+          title="Insurance Admin Panel"
+          emoji="🪶"
+          description="A web application created in Typscript with React.js, GraphQL and Apollo. Have an overview of your current insurances!"
+          codeLink="https://github.com/franziskapendzialek/insurance-admin-panel"
+        />
+        <ProjectCard
           title="Plant Nerd"
           emoji="🌱"
           description="A web application created mainly with Node.js, Express and MongoDB 
