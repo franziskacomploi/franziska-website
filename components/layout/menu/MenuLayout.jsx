@@ -6,6 +6,7 @@ import MenuContext from '../../../util/context/MenuContext'
 import { mdQuery } from '../../../util/helpers'
 import hamburgerIcon from '../../../public/assets/hamburger.svg'
 import ArrowLeft from '../../../public/assets/arrow-left.svg'
+import ArrowButton from '../ArrowButton'
 
 const MenuLayout = () => {
   const { setIsMenuOpen, isMenuOpen } = useContext(MenuContext)
@@ -19,14 +20,13 @@ const MenuLayout = () => {
       <MediaQuery maxWidth={mdQuery}>
         <nav className="ml-6 mt-6">
           {isMenuOpen ? (
-            <button onClick={handleClick}>
-              <Image
-                width={20}
-                height={20}
-                src={ArrowLeft}
-                alt="hamburger-menu"
-              />
-            </button>
+            <ArrowButton
+              active={isMenuOpen}
+              handleClick={handleClick}
+              icon={ArrowLeft}
+              alt="hamburger-menu"
+              size={20}
+            />
           ) : (
             <button onClick={handleClick}>
               <Image

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Coding Library",
+    "emoji": "📖",
+    "description": "Collecting frameworks, tools, packages and other things that became useful and interesting in the Tech world. This gives an overview for everyone that is interested in what exists out there!",
+    "link": "https://star-caption-d78.notion.site/Coding-Library-d6a4866dd1584d2bb2899af396d02c01"
+  },
+  {
+    "title": "Space X Website",
+    "emoji": "🪐",
+    "description": "Rebuild of the Space X Website with React.js, Scss, Apollo and GraphQL.",
+    "link": "https://space-x-website.vercel.app/",
+    "codeLink": "https://github.com/franziskapendzialek/space-x-website-rebuild"
+  },
+  {
+    "title": "Insurance Admin Panel",
+    "emoji": "🪶",
+    "description": "A web application created in Typscript with React.js, GraphQL and Apollo. Have an overview of your current insurances!",
+    "codeLink": "https://github.com/franziskapendzialek/insurance-admin-panel"
+  },
+  {
+    "title": "Plant Nerd",
+    "emoji": "🌱",
+    "description": "A web application created mainly with Node.js, Express and MongoDB that lets you collect your favorite plants all over the world, connect with others and post plants yourself!",
+    "link": "https://plant-nerd.herokuapp.com/",
+    "codeLink": "https://github.com/franziskapendzialek/plant-nerd"
+  }
+]
