@@ -21,7 +21,7 @@ const Projects = () => {
       <div className="content-big text-center font-light mb-4 mx-6 md:mx-28">
         {`Tech is my dream, so I'm contributing to private projects as well. Find what I'm working on in my free-time here:`}
       </div>
-      <div className="flex flex-row items-center mt-20 mx-6 md:mx-20 xl:mx-72">
+      <div className="w-full flex flex-row items-center justify-between mt-20 px-8 md:px-20 xl:px-72">
         <ArrowButton
           active={currentIndex > 0}
           className="w-20"
