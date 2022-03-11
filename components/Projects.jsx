@@ -22,14 +22,15 @@ const Projects = () => {
         {`Tech is my dream, so I'm contributing to private projects as well. Find what I'm working on in my free-time here:`}
       </div>
       <div className="w-full flex flex-row items-center justify-between mt-20 px-8 md:px-20 xl:px-72">
-        <ArrowButton
-          active={currentIndex > 0}
-          className="w-20"
-          handleClick={handleClickLeft}
-          icon={ArrowLeft}
-          alt="slider-arrow-left"
-          size={30}
-        />
+        <div className="w-20">
+          <ArrowButton
+            active={currentIndex > 0}
+            handleClick={handleClickLeft}
+            icon={ArrowLeft}
+            alt="slider-arrow-left"
+            size={30}
+          />
+        </div>
         {projectData.map((project, i) => {
           return (
             <ProjectCard
@@ -43,14 +44,15 @@ const Projects = () => {
             />
           )
         })}
-        <ArrowButton
-          active={currentIndex < projectData.length - 1}
-          className="w-20"
-          handleClick={handleClickRight}
-          icon={ArrowRight}
-          alt="slider-arrow-right"
-          size={30}
-        />
+        <div className="w-20">
+          <ArrowButton
+            active={currentIndex < projectData.length - 1}
+            handleClick={handleClickRight}
+            icon={ArrowRight}
+            alt="slider-arrow-right"
+            size={30}
+          />
+        </div>
       </div>
     </div>
   )
