@@ -6,7 +6,7 @@ const ProjectCard = ({ active, title, emoji, description, link, codeLink }) => {
   return (
     <>
       {active && (
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center min-h-fit">
           <div className="underline-gradient font-serif text-4xl">{title}</div>
           <div className="my-4">{emoji}</div>
           <div className="content-big text-center font-light mb-4 mx-10">

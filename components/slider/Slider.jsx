@@ -11,7 +11,7 @@ const Slider = ({ children, currentIndex, setCurrentIndex, dataLength }) => {
     setCurrentIndex(currentIndex + 1)
   }
   return (
-    <>
+    <div className="w-full flex flex-row items-center justify-between">
       <div className="w-20">
         <ArrowButton
           active={currentIndex > 0}
@@ -31,7 +31,7 @@ const Slider = ({ children, currentIndex, setCurrentIndex, dataLength }) => {
           size={30}
         />
       </div>
-    </>
+    </div>
   )
 }
 

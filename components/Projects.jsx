@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import ProjectCard from './projects/ProjectCard'
 import projectData from '../data/projects.json'
 import Slider from './slider/Slider'
+import PaginationDots from './slider/PaginationDots'
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
+
+  const handlePaginationClick = (i) => {
+    setCurrentIndex(i)
+  }
 
   return (
     <div className="bg-white pt-16 pb-44 flex flex-col items-center">
@@ -12,7 +17,7 @@ const Projects = () => {
       <div className="content-big text-center font-light mb-4 mx-6 md:mx-28">
         {`Tech is my dream, so I'm contributing to private projects as well. Find what I'm working on in my free-time here:`}
       </div>
-      <div className="w-full flex flex-row items-center justify-between mt-20 px-8 md:px-20 xl:px-72">
+      <div className="w-full flex flex-col items-center mt-20 px-8 md:px-20 xl:px-72">
         <Slider
           currentIndex={currentIndex}
           setCurrentIndex={setCurrentIndex}
@@ -32,6 +37,11 @@ const Projects = () => {
             )
           })}
         </Slider>
+        <PaginationDots
+          sliderItems={projectData}
+          currentIndex={currentIndex}
+          handleClick={handlePaginationClick}
+        />
       </div>
     </div>
   )
