@@ -25,7 +25,7 @@ const Hero = ({ showBanner }) => {
         </div>
         <div className="border-l-2">
           <div className="content-big font-light py-4 ml-4 w-72">
-            {`I'm a software developer that transitioned from Marketing to Tech.
+            {`I'm a Marketing & Tech expert.
             I love good coffee, playing boardgames with friends and music.`}
           </div>
         </div>
@@ -45,7 +45,7 @@ const Hero = ({ showBanner }) => {
           <div>
             Focused on
             <br />
-            <span className="font-bold">Frontend & Fullstack</span>
+            <span className="font-bold">Marketing & Digital Products</span>
           </div>
         </div>
       )}
