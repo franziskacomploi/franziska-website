@@ -4,7 +4,7 @@ import BrandLogo from './../public/assets/brand-logo.png'
 import AppleIcon from './../public/assets/apple.svg'
 import SpotifyIcon from './../public/assets/spotify.svg'
 
-export const BrandHero = () => {
+const PodcastBanner = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-32">
       <Image
@@ -43,3 +43,5 @@ export const BrandHero = () => {
     </div>
   )
 }
+
+export default PodcastBanner

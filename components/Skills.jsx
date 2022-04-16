@@ -3,6 +3,7 @@ import React from 'react'
 import SkillsIcon from '../public/assets/skills.png'
 import ContentIcons from '../public/assets/content.png'
 import LinksIcon from '../public/assets/links.png'
+import skills from '../data/skills.json'
 
 const Skills = () => {
   return (
@@ -12,20 +13,14 @@ const Skills = () => {
           <Image
             width={40}
             height={40}
-            src={SkillsIcon}
+            src={LinksIcon}
             alt="skills-franziska"
           />
         </div>
-        <div className="font-bold mb-2">Frontend Tech Stack</div>
-        <div>HTML, CSS, Javascript(ES6)</div>
-        <div>React.js, NextJs</div>
-        <div>Vue.js, nuxt</div>
-        <div>Typescript</div>
-        <div>Gatsby.js</div>
-        <div>MobX</div>
-        <div>RESTful APIs, Graph QL</div>
-        <div>Responsive Websites</div>
-        <div>Command Line, Web Accessibility</div>
+        <div className="font-bold mb-2">{skills.subTitle1}</div>
+        {skills.skills1.map((item) => {
+          return <div key={item}>{item}</div>
+        })}
         <div className="mb-2 mt-10">
           <Image
             width={30}
@@ -34,18 +29,22 @@ const Skills = () => {
             alt="skills-franziska"
           />
         </div>
-        <div className="font-bold mb-2">Content Management Systems</div>
-        <div>Contentful</div>
+        <div className="font-bold mb-2">{skills.subTitle2}</div>
+        {skills.skills2.map((item) => {
+          return <div key={item}>{item}</div>
+        })}
         <div className="mb-2 mt-10">
           <Image
             width={40}
             height={40}
-            src={LinksIcon}
+            src={SkillsIcon}
             alt="skills-franziska"
           />
         </div>
-        <div className="font-bold mb-2">Backend Tech Stack</div>
-        <div>MongoDB, Express, NodeJS</div>
+        <div className="font-bold mb-2">{skills.subTitle3}</div>
+        {skills.skills3.map((item) => {
+          return <div key={item}>{item}</div>
+        })}
       </div>
     </div>
   )

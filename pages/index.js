@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import About from '../components/About.jsx'
-import { BrandHero } from '../components/BrandHero.jsx'
+import PodcastBanner from '../components/PodcastBanner.jsx'
 import Hero from '../components/Hero.jsx'
 import Projects from '../components/Projects.jsx'
 import Skills from '../components/Skills.jsx'
@@ -16,7 +16,7 @@ const Home = () => {
           <a className="button-gradient my-4">See my Experiences</a>
         </Link>
       </div>
-      <BrandHero />
+      <PodcastBanner />
       <Projects />
     </div>
   )
