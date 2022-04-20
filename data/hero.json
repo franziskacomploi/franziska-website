@@ -1,12 +1,12 @@
 {
   "firstName": "Franziska",
   "lastName": "Pendzialek",
-  "jobTitle": "Product & Tech",
-  "description": "I'm a Product & Tech Manager. I love good coffee, playing boardgames with friends and music.",
+  "jobTitle": "Software Engineer",
+  "description": "I'm a Software Engineer. I love good coffee, playing boardgames with friends and music.",
   "feature1": "Based in",
   "feature2": "Experience",
   "feature3": "Focus on",
   "basedIn": "Potsdam, Germany & Berlin",
   "experience": "4+ years",
-  "focusOn": "Digital Products & Tech"
+  "focusOn": "Engineering Management & Frontend Development"
 }
