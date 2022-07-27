@@ -27,11 +27,12 @@ const Experiences = () => {
             Software Developer
             <br />
             Hubblr.io
+            <br />
+            Jun 2021 – Jul 2022
           </div>
           <div className="text-center mt-4 mx-10">
-            Since June 2021 Developing web applications for several clients,
-            e.g. Flink, tech stack includes React.js, Vuejs, Nextjs, Typescript,
-            Contentful
+            Developed web applications for several clients, e.g. Flink, tech
+            stack includes React.js, Vuejs, Nextjs, Typescript, Contentful
           </div>
         </div>
         <div className="card mx-6 md:mx-auto max-w-xl">

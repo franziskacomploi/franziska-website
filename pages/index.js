@@ -16,7 +16,6 @@ const Home = () => {
           <a className="button-gradient my-4">See my Experiences</a>
         </Link>
       </div>
-      <PodcastBanner />
       <Projects />
     </div>
   )
