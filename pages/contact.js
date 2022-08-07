@@ -11,11 +11,9 @@ const Contact = () => {
     <div>
       <Hero />
       <div className="flex flex-col items-center py-28 gradient">
-        <Widget
-          id="UehmCZMU"
-          style={widgetContainerStyle}
-          className="contact-form"
-        />
+        <div className="p-2 text-white border-2">
+          <a href="mailto:and.business.fran@gmail.com">Get in touch</a>
+        </div>
       </div>
     </div>
   )
