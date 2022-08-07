@@ -6,7 +6,7 @@
     "title": "Space X Website",
     "emoji": "🪐",
     "description": "Rebuild of the Space X Website with React.js, Scss, Apollo and GraphQL.",
-    "link": "https://space-x-website.vercel.app/",
+    "link": "https://space-x-website-rebuild.vercel.app/",
     "codeLink": "https://github.com/franziskapendzialek/space-x-website-rebuild"
   },
   {
@@ -16,11 +16,11 @@
     "codeLink": "https://github.com/franziskapendzialek/insurance-admin-panel"
   },
   {
-    "title": "Plant Nerd",
-    "emoji": "🌱",
-    "description": "A web application created mainly with Node.js, Express and MongoDB that lets you collect your favorite plants all over the world, connect with others and post plants yourself!",
-    "link": "https://plant-nerd.herokuapp.com/",
-    "codeLink": "https://github.com/franziskapendzialek/plant-nerd"
+    "title": "Weather Forecast",
+    "emoji": "🌦",
+    "description": "A web application that lets you find the current weather forecast of your chosen location. Built with React.js, Axios and Tailwind.",
+    "link": "https://weather-api-indol.vercel.app/",
+    "codeLink": "https://github.com/franziskapendzialek/weather-api-project"
   }
 ]
 }
