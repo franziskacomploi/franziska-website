@@ -14,12 +14,20 @@ const ProjectCard = ({ active, title, emoji, description, link, codeLink }) => {
           </div>
           <div className="flex flex-row gap-4 flex-wrap md:flex-nowrap">
             {link && (
-              <a className="button-gradient-small" href={link}>
+              <a
+                className="button-gradient-small"
+                href={link}
+                aria-label="click"
+              >
                 Go to Project
               </a>
             )}
             {codeLink && (
-              <a href={codeLink} className="button-gradient-small">
+              <a
+                href={codeLink}
+                className="button-gradient-small"
+                aria-label="click"
+              >
                 Go to Code
               </a>
             )}

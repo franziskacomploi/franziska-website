@@ -5,7 +5,7 @@ const ArrowButton = ({ handleClick, icon, alt, size, className, active }) => {
   return (
     <>
       {active && (
-        <button onClick={handleClick} className={className}>
+        <button onClick={handleClick} className={className} aria-label="click">
           <Image width={size} height={size} src={icon} alt={alt} />
         </button>
       )}

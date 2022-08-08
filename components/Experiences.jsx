@@ -101,7 +101,9 @@ const Experiences = () => {
           </div>
         </div>
         <Link href="/contact">
-          <a className="button-gradient my-4">Contact me</a>
+          <a className="button-gradient my-4" aria-label="click">
+            Contact me
+          </a>
         </Link>
       </div>
     </div>

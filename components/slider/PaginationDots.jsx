@@ -14,6 +14,7 @@ const PaginationDots = ({ sliderItems, currentIndex, handleClick }) => {
             onClick={() => {
               handleClick(i)
             }}
+            aria-label="click"
           />
         )
       })}
