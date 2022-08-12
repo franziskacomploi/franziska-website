@@ -3,6 +3,20 @@
   "description": "Since learning is a huge part of getting better, find what I'm contributing to in my free-time here:",
   "projects": [
   {
+    "title": "Weather Forecast",
+    "emoji": "🌦",
+    "description": "A web application that lets you find the current weather forecast of your chosen location. Built with React.js, Axios and Tailwind.",
+    "link": "https://weather-api-indol.vercel.app/",
+    "codeLink": "https://github.com/franziskapendzialek/weather-api-project"
+  },
+  {
+    "title": "Simple ToDo App",
+    "emoji": "📝",
+    "description": "A simple todo app to focus on the important things. Build with Vue, Nuxt 3, Pinia, Tailwind and Vitest for testing.",
+    "link": "https://simple-todo-app-gilt.vercel.app/",
+    "codeLink": "https://github.com/franziskapendzialek/todo-app-vue-typescript"
+  },
+  {
     "title": "Space X Website",
     "emoji": "🪐",
     "description": "Rebuild of the Space X Website with React.js, Scss, Apollo and GraphQL.",
@@ -14,13 +28,6 @@
     "emoji": "🪶",
     "description": "A web application created in Typscript with React.js, GraphQL and Apollo. Have an overview of your current insurances!",
     "codeLink": "https://github.com/franziskapendzialek/insurance-admin-panel"
-  },
-  {
-    "title": "Weather Forecast",
-    "emoji": "🌦",
-    "description": "A web application that lets you find the current weather forecast of your chosen location. Built with React.js, Axios and Tailwind.",
-    "link": "https://weather-api-indol.vercel.app/",
-    "codeLink": "https://github.com/franziskapendzialek/weather-api-project"
   }
 ]
 }
