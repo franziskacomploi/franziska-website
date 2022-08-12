@@ -2,7 +2,7 @@
   "title": "Skills",
   "subTitle1": "Tech Stack",
   "skills1": [
-    "Javascript", "React.js & Next.js", "Vue & Nuxt", "MobX", "Typescript", "Contentful", "REST Api & GraphQL", "Responsiveness & Accessibility", "Tailwind"
+    "Javascript", "Typescript", "React & Nextjs", "Vue & Nuxt", "Pinia", "MobX", "Contentful", "REST Api & GraphQL", "Tailwind", "Jest & Vitest", "Responsiveness & Accessibility"
   ],
   "subTitle2": "Other Experience", 
   "skills2": [
