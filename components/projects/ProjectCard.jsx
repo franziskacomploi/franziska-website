@@ -12,7 +12,7 @@ const ProjectCard = ({ active, title, emoji, description, link, codeLink }) => {
           <div className="content-big text-center font-light mb-4 mx-10">
             {description}
           </div>
-          <div className="flex flex-row gap-4 flex-wrap md:flex-nowrap">
+          <div className="flex flex-col md:flex-row gap-4 flex-wrap md:flex-nowrap">
             {link && (
               <a
                 className="button-gradient-small"

@@ -12,14 +12,14 @@ const Projects = () => {
   }
 
   return (
-    <div className="bg-white pt-16 pb-44 flex flex-col items-center">
-      <div className="headline-xl text-center mb-4 mt-24">
+    <div className="bg-white pt-8 md:pt-16 pb-8 md:pb-44 flex flex-col items-center">
+      <div className="headline-xl text-center mb-4 mt-8 md:mt-24">
         {projectData.title}
       </div>
       <div className="content-big text-center font-light mb-4 mx-6 md:mx-28">
         {projectData.description}
       </div>
-      <div className="w-full flex flex-col items-center mt-20 px-8 md:px-20 xl:px-72">
+      <div className="w-full flex flex-col items-center mt-12 md:mt-20 px-8 md:px-20 xl:px-72">
         <Slider
           currentIndex={currentIndex}
           setCurrentIndex={setCurrentIndex}

@@ -6,7 +6,7 @@ import hero from '../data/hero.json'
 const Hero = ({ showBanner }) => {
   return (
     <>
-      <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 my-16">
+      <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mb-4 md:my-16">
         <div>
           <div className="text-2xl font-light">{hero.jobTitle}</div>
           <div className="headline-xl">
@@ -31,7 +31,7 @@ const Hero = ({ showBanner }) => {
         </div>
       </div>
       {showBanner && (
-        <div className="content-big flex flex-col md:flex-row gap-4 items-center justify-evenly bg-beige text-center pt-16">
+        <div className="content-big flex flex-col md:flex-row gap-5 md:gap-4 items-center justify-evenly bg-beige text-center pt-8 md:pt-16 px-10 md:px-auto">
           <div>
             {hero.feature1}
             <br />

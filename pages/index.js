@@ -11,7 +11,7 @@ const Home = () => {
       <Hero showBanner />
       <About />
       <Skills />
-      <div className="flex flex-row justify-center mt-12">
+      <div className="flex flex-row justify-center mt-4 md:mt-12">
         <Link href="https://www.linkedin.com/in/franziska-pendzialek/">
           <a className="button-gradient my-4">See my Experiences</a>
         </Link>

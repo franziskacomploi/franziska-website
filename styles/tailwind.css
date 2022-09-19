@@ -4,11 +4,12 @@
 
 @layer components {
   .headline-xl {
-    @apply text-6xl md:text-7xl font-serif;
+    @apply text-4xl md:text-7xl font-serif;
   }
 
+
   .content-big {
-    @apply text-xl font-sans;
+    @apply text-lg md:text-xl font-sans;
   }
   .gradient {
     background: radial-gradient(

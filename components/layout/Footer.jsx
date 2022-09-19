@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className="bg-dark text-center text-white py-10">
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+      <div className="flex flex-row items-center justify-center gap-4">
         <a href="https://www.linkedin.com/in/franziska-pendzialek/">
           <Image
             width={30}

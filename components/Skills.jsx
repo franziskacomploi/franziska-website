@@ -7,7 +7,7 @@ import skills from '../data/skills.json'
 
 const Skills = () => {
   return (
-    <div className="gradient flex flex-col items-center pb-16">
+    <div className="gradient flex flex-col items-center pb-8 md:pb-16">
       <div className="card max-w-2xl -mt-28 content-big text-center font-light pb-10">
         <div className="mt-6">
           <Image
