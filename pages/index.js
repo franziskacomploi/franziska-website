@@ -12,7 +12,7 @@ const Home = () => {
       <About />
       <Skills />
       <div className="flex flex-row justify-center mt-12">
-        <Link href="/experiences">
+        <Link href="https://www.linkedin.com/in/franziska-pendzialek/">
           <a className="button-gradient my-4">See my Experiences</a>
         </Link>
       </div>

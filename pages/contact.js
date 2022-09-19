@@ -12,7 +12,9 @@ const Contact = () => {
       <Hero />
       <div className="flex flex-col items-center py-28 gradient">
         <div className="p-2 text-white border-2">
-          <a href="mailto:and.business.fran@gmail.com">Get in touch</a>
+          <a href="https://www.linkedin.com/in/franziska-pendzialek/">
+            Get in touch
+          </a>
         </div>
       </div>
     </div>

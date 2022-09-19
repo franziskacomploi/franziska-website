@@ -1,15 +1,15 @@
 {
   "title": "Skills",
-  "subTitle1": "Tech Stack",
+  "subTitle1": "Programming Languages",
   "skills1": [
-    "Javascript", "Typescript", "React & Nextjs", "Vue & Nuxt", "Pinia", "MobX", "Contentful", "REST Api & GraphQL", "Tailwind", "Jest & Vitest", "Responsiveness & Accessibility"
+    "Javascript", "Typescript", "Python", "Java", "C++"
   ],
-  "subTitle2": "Other Experience", 
+  "subTitle2": "Tech Stack", 
   "skills2": [
-    "Agile & Scrum", "Roadmapping and prioritizing tasks", "Defining requirements", "Data Flow Management", "Process & Workflow Management", "Low Code Applications"
-  ], 
+    "Git & Github", "Web Responsiveness & Accessibility", "Technical SEO", "REST Api & GraphQL", "State Management", "Databases (Non relational & relational)", "Deployment (CI/CD Pipeline)", "Debugging & Logging", "Testing", "Content Management"
+  ],
   "subTitle3": "Soft Skills", 
   "skills3": [
-    "Strong communication skills", "Team working and team leadership", "Analytical thinking", "Time management"
+    "Agile & Scrum", "Roadmapping and prioritizing tasks", "Defining requirements", "Data Flow Management", "Process & Workflow Management", "Teamwork and team leadership"
   ]
 }
