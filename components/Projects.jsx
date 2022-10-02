@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import ProjectCard from './projects/ProjectCard'
 import projectData from '../data/projects.json'
-import Slider from './slider/Slider'
-import PaginationDots from './slider/PaginationDots'
+import PaginationDots from './layout/PaginationDots'
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -20,11 +19,7 @@ const Projects = () => {
         {projectData.description}
       </div>
       <div className="w-full flex flex-col items-center mt-12 md:mt-20 px-8 md:px-20 xl:px-72">
-        <Slider
-          currentIndex={currentIndex}
-          setCurrentIndex={setCurrentIndex}
-          dataLength={projectData.projects.length}
-        >
+        <div className="w-full flex flex-row items-center justify-center">
           {projectData.projects.map((project, i) => {
             return (
               <ProjectCard
@@ -38,7 +33,7 @@ const Projects = () => {
               />
             )
           })}
-        </Slider>
+        </div>
         <PaginationDots
           sliderItems={projectData.projects}
           currentIndex={currentIndex}

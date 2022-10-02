@@ -6,8 +6,10 @@ const ProjectCard = ({ active, title, emoji, description, link, codeLink }) => {
   return (
     <>
       {active && (
-        <div className="flex flex-col items-center justify-center min-h-fit">
-          <div className="underline-gradient font-serif text-4xl">{title}</div>
+        <div className="flex flex-col items-center justify-center min-h-fit rounded-lg shadow-lg p-2 py-8">
+          <div className="underline-gradient font-serif text-4xl text-center">
+            {title}
+          </div>
           <div className="my-4">{emoji}</div>
           <div className="content-big text-center font-light mb-4 mx-10">
             {description}
