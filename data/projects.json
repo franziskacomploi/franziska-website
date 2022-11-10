@@ -3,6 +3,13 @@
   "description": "Since learning is a huge part of getting better, find what I'm contributing to in my free-time here:",
   "projects": [
   {
+    "title": "Flowmo",
+    "emoji": "💸",
+    "description": "A web application to follow your flowing money. Enter your budgets and see how much you have left. Created with Typescript, Nuxt 3, Vue, Pinia.",
+    "link": "https://flowmo.vercel.app/",
+    "codeLink": "https://github.com/franziskapendzialek/flowmo"
+  },
+  {
     "title": "Weather Forecast",
     "emoji": "🌦",
     "description": "A web application that lets you find the current weather forecast of your chosen location. Built with React.js, Axios and Tailwind.",
