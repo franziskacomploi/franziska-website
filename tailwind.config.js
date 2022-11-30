@@ -1,6 +1,13 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
+    './app.vue',
+  ],
   theme: {
     fontFamily: {
       sans: ['Raleway', 'Roboto', '"Helvetica Neue"'],
@@ -15,13 +22,10 @@ module.exports = {
       darkMint: '#8AAFAD',
       rusty: '#A95039',
       yellow: '#D18636',
-      white: '#FFF',
       dark: '#3C3C3B',
+      white: '#FFF',
     },
     extend: {},
   },
-  variants: {
-    extend: {},
-  },
   plugins: [],
-}
+};

@@ -1,0 +1,36 @@
+
+  .headline-xl {
+    @apply text-4xl md:text-7xl font-serif;
+  }
+
+  .content-big {
+    @apply text-lg md:text-xl font-sans;
+  }
+  .gradient {
+    background: radial-gradient(
+      circle,
+      rgb(177, 191, 188, 1) 61%,
+      rgb(138, 175, 173, 1) 100%
+    );
+  }
+
+
+  .button-gradient {
+    @apply mt-6 px-8 py-4 rounded-xl gradient text-white font-bold cursor-pointer;
+  }
+
+  .button-gradient-small {
+    @apply mt-6 px-6 py-2 rounded-xl bg-darkMint text-white font-bold cursor-pointer;
+  }
+
+  .underline-gradient {
+    border-style: solid;
+    border-image-slice: 1;
+    border-bottom-width: 5px;
+
+    border-image-source: linear-gradient(
+      to left,
+      rgb(177, 191, 188, 1) 27%,
+      rgb(138, 175, 173, 1) 100%
+    );
+  }
