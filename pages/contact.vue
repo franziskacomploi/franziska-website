@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Hero />
-    <div class="flex flex-col items-center py-28 gradient">
-      <div class="p-2 text-white border-2">
+    <hero :show-banner="false" />
+    <div class="flex flex-col items-center h-[200px] gradient">
+      <div class="mt-12 py-2 px-4 text-lg text-white border-2 rounded-full">
         <a
           href="https://www.linkedin.com/in/franziska-pendzialek/"
-          rel="_blank"
+          target="_blank"
         >
           {{ contact.text }}
         </a>

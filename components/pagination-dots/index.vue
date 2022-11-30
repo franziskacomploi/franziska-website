@@ -4,7 +4,7 @@
       <button
         type="button"
         :class="`rounded-full w-4 h-4 ${
-          i === currentIndex ? 'bg-mint' : 'bg-dark'
+          i === currentIndex ? 'bg-rosa' : 'bg-dark'
         }`"
         @click="$emit('pagination', i)"
         aria-label="click"

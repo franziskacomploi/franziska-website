@@ -16,11 +16,11 @@
 
 
   .button-gradient {
-    @apply mt-6 px-8 py-4 rounded-xl gradient text-white font-bold cursor-pointer;
+    @apply border-2 border-darkMint mt-6 px-8 py-4 rounded-full text-darkMint font-bold cursor-pointer;
   }
 
   .button-gradient-small {
-    @apply mt-6 px-6 py-2 rounded-xl bg-darkMint text-white font-bold cursor-pointer;
+    @apply mt-6 px-6 py-2 rounded-full bg-darkMint text-white font-bold cursor-pointer;
   }
 
   .underline-gradient {

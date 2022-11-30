@@ -1,16 +1,9 @@
 <template>
   <div>
-    <hero showBanner />
+    <hero show-banner />
     <about />
     <skills />
-    <div class="flex flex-row justify-center mt-4 md:mt-12">
-      <nuxt-link
-        to="https://www.linkedin.com/in/franziska-pendzialek/"
-        class="button-gradient my-4"
-      >
-        See my Experiences
-      </nuxt-link>
-    </div>
+    <stripe />
     <projects />
   </div>
 </template>
