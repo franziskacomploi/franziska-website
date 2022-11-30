@@ -1,0 +1,35 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "allowJs": true,
+    "sourceMap": true,
+    "types": [
+      "@types/node",
+      "@nuxt/types"
+    ],
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "files": [
+    "custom.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
