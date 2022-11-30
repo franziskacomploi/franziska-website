@@ -11,7 +11,7 @@
   </div>
 
   <nav
-    class="hidden md:block flex flex-row items-center justify-evenly font-bold text-xl my-4"
+    class="hidden md:flex flex-row items-center justify-evenly font-bold text-xl my-4"
   >
     <nuxt-link to="/" class="underline-gradient"> About Fran </nuxt-link>
     <nuxt-link to="/contact" class="underline-gradient"> Contact Me </nuxt-link>
