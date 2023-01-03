@@ -1,15 +1,15 @@
 {
   "title": "Skills",
-  "subTitle1": "Software & Tools",
+  "subTitle1": "Programming Languages",
   "skills1": [
-    "Figma", "Adobe Suite", "Sketch", "Miro", "Javascript", "Typescript", "Python"
+    "Javascript", "Typescript", "Python"
   ],
-  "subTitle2": "Topics", 
+  "subTitle2": "Tech Stack", 
   "skills2": [
-    "Web Responsiveness & Accessibility", "Technical SEO", "UX Research", "User Testing", "Content Management"
+    "Git & Github", "Web Responsiveness & Accessibility", "Technical SEO", "REST Api & GraphQL", "State Management", "Databases (Non relational & relational)", "Deployment (CI/CD Pipeline)", "Debugging & Logging", "Testing", "Content Management"
   ],
   "subTitle3": "Soft Skills", 
   "skills3": [
-    "Agile & Scrum", "Roadmapping and prioritizing tasks", "Defining requirements", "Conducting user research", "Teamwork and team leadership"
+    "Agile & Scrum", "Roadmapping and prioritizing tasks", "Defining requirements", "Data Flow Management", "Process & Workflow Management", "Teamwork and team leadership"
   ]
 }
