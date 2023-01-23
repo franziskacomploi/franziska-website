@@ -24,5 +24,3 @@ const arrowLeft = computed(() => {
   return defineAsyncComponent(() => import(`~/assets/icons/arrow-left.svg`));
 });
 </script>
-
-<style lang="postcss" scoped></style>

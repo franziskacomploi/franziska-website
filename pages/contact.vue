@@ -19,5 +19,3 @@ import contact from '~/content/contact.json';
 
 definePageMeta({ layout: 'main' });
 </script>
-
-<style lang="postcss" scoped></style>

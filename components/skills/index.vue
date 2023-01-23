@@ -45,7 +45,7 @@ import contentIcons from '~/assets/images/content.png';
 import skillsIcon from '~/assets/images/skills.png';
 </script>
 
-<style lang="postcss" scoped>
+<style lang="scss" scoped>
 .card {
   @apply bg-white md:w-1/2 p-4 
   rounded-2xl shadow

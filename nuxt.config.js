@@ -24,6 +24,8 @@ export default defineNuxtConfig({
   buildModules: ['@nuxt/typescript-build'],
   postcss: {
     plugins: {
+      'postcss-import': {},
+      'tailwindcss/nesting': {},
       tailwindcss: {},
       autoprefixer: {},
     },

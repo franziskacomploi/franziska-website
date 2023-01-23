@@ -2,7 +2,7 @@
   <div
     :class="`${
       isContactPage ? 'fixed bottom-0 w-full' : ''
-    } bg-dark flex flex-col items-center justify-center text-white pt-10 pb-2`"
+    } bg-raisinBlack flex flex-col items-center justify-center text-white pt-10 pb-2`"
   >
     <div class="flex flex-row items-center justify-center gap-4">
       <a
@@ -39,5 +39,3 @@ const isContactPage = computed(() => {
   return route.currentRoute.value.name === 'contact' || false;
 });
 </script>
-
-<style lang="postcss" scoped></style>

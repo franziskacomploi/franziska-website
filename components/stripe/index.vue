@@ -19,5 +19,3 @@
 <script lang="ts" setup>
 import stripe from '~/content/stripe.json';
 </script>
-
-<style lang="postcss" scoped></style>

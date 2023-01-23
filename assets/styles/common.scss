@@ -1,0 +1,40 @@
+
+  .headline-xl {
+    @apply text-4xl md:text-7xl font-serif;
+  }
+
+  .content-big {
+    @apply text-lg md:text-xl font-sans;
+  }
+  .gradient {
+    background: linear-gradient(360deg, rgba(129,151,160,1) 29%, rgba(29,62,73,0.836594012605042) 86%);
+  }
+
+
+  .button-gradient {
+    @apply border-2 border-charcoal mt-6 px-8 py-4 rounded-full text-charcoal font-bold cursor-pointer;
+
+    &:hover {
+      @apply bg-charcoal text-cultured;
+    }
+  }
+
+  .button-gradient-small {
+    @apply mt-6 px-6 py-2 rounded-full bg-cadetGrey text-cultured font-bold cursor-pointer;
+
+    &:hover {
+      @apply bg-charcoal text-cultured;
+    }
+  }
+
+  .underline-gradient {
+    border-style: solid;
+    border-image-slice: 1;
+    border-bottom-width: 3px;
+
+    border-image-source: linear-gradient(
+      to left,
+      rgb(129,151,160, 1) 27%,
+      rgb(29,62,73, 1)100%
+    );
+  }

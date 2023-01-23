@@ -11,7 +11,7 @@
       </div>
     </div>
     <div
-      class="w-80 h-80 rounded-full bg-darkMint shadow flex flex-row items-center justify-center"
+      class="w-80 h-80 rounded-full bg-charcoal shadow flex flex-row items-center justify-center"
     >
       <img
         class="w-[300px] h-[300px] rounded-full"
@@ -29,7 +29,7 @@
 
   <div
     v-if="showBanner"
-    class="content-big flex flex-col md:flex-row gap-5 md:gap-4 items-center justify-evenly bg-beige text-center pt-8 md:pt-16 px-10 md:px-auto"
+    class="content-big flex flex-col md:flex-row gap-5 md:gap-4 items-center justify-evenly bg-cultured text-center pt-8 md:pt-16 px-10 md:px-auto"
   >
     <div>
       {{ hero.feature1 }}
@@ -57,5 +57,3 @@ defineProps({
   showBanner: { type: Boolean, default: true },
 });
 </script>
-
-<style lang="postcss" scoped></style>

@@ -4,7 +4,7 @@
       <button
         type="button"
         :class="`rounded-full w-4 h-4 ${
-          i === currentIndex ? 'bg-rosa' : 'bg-dark'
+          i === currentIndex ? 'bg-camel' : 'bg-cultured'
         }`"
         @click="$emit('pagination', i)"
         aria-label="click"
@@ -19,5 +19,3 @@ defineProps({
   currentIndex: { type: Number, required: true },
 });
 </script>
-
-<style lang="postcss" scoped></style>

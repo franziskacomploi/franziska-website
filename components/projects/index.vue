@@ -1,10 +1,12 @@
 <template>
-  <div class="gradient pt-8 md:pt-16 pb-8 md:pb-44 flex flex-col items-center">
-    <div class="headline-xl text-beige text-center mb-4 mt-8 md:mt-24">
+  <div
+    class="bg-cadetGrey pt-8 md:pt-16 pb-8 md:pb-44 flex flex-col items-center"
+  >
+    <div class="headline-xl text-cultured text-center mb-4 mt-8 md:mt-24">
       {{ projectData.title }}
     </div>
     <div
-      class="text-beige content-big text-center font-light mb-4 mx-6 md:mx-28"
+      class="text-cultured content-big text-center font-light mb-4 mx-6 md:mx-28"
     >
       {{ projectData.description }}
     </div>
@@ -41,5 +43,3 @@ const handlePaginationClick = (i: number) => {
   currentIndex.value = i;
 };
 </script>
-
-<style lang="postcss" scoped></style>

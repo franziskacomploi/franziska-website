@@ -43,5 +43,3 @@ defineProps({
   codeLink: { type: String, default: undefined },
 });
 </script>
-
-<style lang="postcss" scoped></style>
