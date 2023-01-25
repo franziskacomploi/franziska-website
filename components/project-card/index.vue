@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="active"
-    class="bg-white/70 flex flex-col items-center justify-center min-h-fit rounded-lg shadow-lg p-2 py-8"
+    class="bg-white/70 flex flex-col items-center justify-center min-h-fit shadow-lg p-2 py-8"
   >
     <div class="underline-gradient font-serif text-4xl text-center">
       {{ title }}

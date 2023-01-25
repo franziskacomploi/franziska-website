@@ -1,13 +1,11 @@
 <template>
   <div
-    class="bg-cadetGrey pt-8 md:pt-16 pb-8 md:pb-44 flex flex-col items-center"
+    class="bg-cultured text-charcoal pt-4 md:pt-10 pb-4 md:pb-32 flex flex-col items-center"
   >
-    <div class="headline-xl text-cultured text-center mb-4 mt-8 md:mt-24">
+    <div class="headline-xl text-center mb-4 mt-8 md:mt-24">
       {{ projectData.title }}
     </div>
-    <div
-      class="text-cultured content-big text-center font-light mb-4 mx-6 md:mx-28"
-    >
+    <div class="content-big text-center font-light mb-4 mx-6 md:mx-28">
       {{ projectData.description }}
     </div>
     <div
