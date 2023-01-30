@@ -15,6 +15,7 @@
         v-if="link"
         class="button-gradient-small"
         :href="link"
+        target="_blank"
         aria-label="click"
       >
         {{ projectCard.link }}
@@ -22,6 +23,7 @@
       <a
         v-if="codeLink"
         :href="codeLink"
+        target="_blank"
         class="button-gradient-small"
         aria-label="click"
       >
