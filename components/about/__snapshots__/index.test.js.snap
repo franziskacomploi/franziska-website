@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`About > should render correctly 1`] = `
+<div
+  class="bg-cultured pt-16 md:pt-28 pb-44"
+>
+  <div
+    class="mx-auto px-8 md:w-1/2"
+  >
+    <div
+      class="headline-xl text-center md:text-left my-4"
+    >
+      About me
+    </div>
+    <div
+      class="content-big text-center md:text-left font-light mb-4"
+    >
+      Hi, I'm Fran! The year 2020 probably held a huge transition for a lot of us and it was no different for me. After I finished my universtity in 2018, I moved to Berlin and worked in Marketing at different Start-ups. A few years later I was rethinking my career and dedicated myself to learn coding. After only 3 months, I got myslef a new job. Now I'm a Software Engineer that is curious about trends, research and what happens in our world.
+    </div>
+  </div>
+</div>
+`;
