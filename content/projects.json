@@ -3,6 +3,12 @@
   "description": "Since learning is a huge part of getting better, find what I'm contributing to in my free-time here:",
   "projects": [
   {
+    "title": "Youtube API Exploratory Data Analysis",
+    "emoji": "🎥",
+    "description": "An exploratory data analysis through the Youtube API covering most popular 10 sustainabiliy channels. This project provides findings for everyone interested in starting a youtube channel in the sustainability niche.",
+    "codeLink": "https://github.com/franziskapendzialek/python-youtube-api-project/blob/main/youtube_data_analysis.ipynb"
+  },
+  {
     "title": "Flowmo",
     "emoji": "💸",
     "description": "A web application to follow your flowing money. Enter your budgets and see how much you have left. Created with Typescript, Nuxt 3, Vue, Pinia.",
