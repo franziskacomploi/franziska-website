@@ -66,7 +66,7 @@ onUnmounted(() => {
 <style lang="scss" scoped>
 .card {
   @apply bg-white md:w-1/2 p-4  shadow
-  flex flex-col items-center;
+  flex flex-col items-center rounded-lg;
 }
 
 .fade-in {

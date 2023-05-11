@@ -1,7 +1,6 @@
 <template>
   <div
-    v-if="active"
-    class="bg-white/70 flex flex-col items-center justify-center min-h-fit shadow-lg p-2 py-8"
+    class="h-full bg-white/70 flex flex-col items-center justify-center shadow-lg p-2 py-8 rounded-lg"
   >
     <div class="underline-gradient font-serif text-4xl text-center">
       {{ title }}
@@ -37,7 +36,6 @@
 import projectCard from '~/content/project-card.json';
 
 defineProps({
-  active: { type: Boolean, required: true },
   title: { type: String, default: 'No title.' },
   emoji: { type: String, default: undefined },
   description: { type: String, default: 'No description.' },

@@ -12,32 +12,51 @@
       class="w-full flex flex-col items-center mt-12 md:mt-20 px-8 md:px-20 xl:px-72"
     >
       <div class="w-full flex flex-row items-center justify-center">
-        <template v-for="(project, i) in projectData.projects" :key="i">
-          <project-card
-            :active="i === currentIndex"
-            :title="project.title"
-            :emoji="project.emoji"
-            :description="project.description"
-            :link="project.link"
-            :codeLink="project.codeLink"
-          />
-        </template>
+        <swiper
+          :modules="modules"
+          :slides-per-view="1"
+          :space-between="10"
+          :pagination="true"
+        >
+          <swiper-slide v-for="(project, i) in projectData.projects" :key="i">
+            <project-card
+              :title="project.title"
+              :emoji="project.emoji"
+              :description="project.description"
+              :link="project.link"
+              :codeLink="project.codeLink"
+            />
+          </swiper-slide>
+        </swiper>
       </div>
-      <pagination-dots
-        :sliderItems="projectData.projects"
-        :currentIndex="currentIndex"
-        @pagination="handlePaginationClick"
-      />
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
 import projectData from '~/content/projects.json';
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Pagination } from 'swiper';
 
-const currentIndex = ref<number>(0);
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
-const handlePaginationClick = (i: number) => {
-  currentIndex.value = i;
-};
+const modules = [Pagination];
 </script>
+
+<style lang="scss" scoped>
+:deep(.swiper-pagination) {
+  @apply mt-6 flex flex-row gap-2 justify-center relative;
+}
+:deep(.swiper-pagination-bullet) {
+  @apply rounded-full w-4 h-4 bg-cadetGrey;
+}
+:deep(.swiper-pagination-bullet-active) {
+  @apply bg-camel;
+}
+:deep(.swiper-slide) {
+  @apply h-auto;
+}
+</style>
