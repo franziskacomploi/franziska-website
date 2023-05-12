@@ -1,6 +1,10 @@
 <template>
   <nav class="md:hidden ml-6 mt-6">
-    <hamburger-menu :active="isMenuOpen" @click="handleClick" />
+    <hamburger-menu
+      :active="isMenuOpen"
+      @click="handleClick"
+      aria-haspopup="menu"
+    />
   </nav>
 
   <div v-if="isMenuOpen" class="md:hidden bg-white flex flex-col items-center">
@@ -22,14 +26,14 @@
     class="hidden md:flex flex-row items-center justify-evenly font-bold text-xl my-4"
   >
     <nuxt-link to="/" class="relative">
-      <span :class="`${isActive('index') ? 'active' : 'not-active'}`"
-        >About Fran</span
-      >
+      <span :class="`${isActive('index') ? 'active' : 'not-active'}`">
+        About Franziska
+      </span>
     </nuxt-link>
     <nuxt-link to="/contact" class="relative"
-      ><span :class="`${isActive('contact') ? 'active' : 'not-active'}`"
-        >Contact me</span
-      ></nuxt-link
+      ><span :class="`${isActive('contact') ? 'active' : 'not-active'}`">
+        Contact me
+      </span></nuxt-link
     >
   </nav>
 </template>

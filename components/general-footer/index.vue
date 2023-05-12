@@ -1,7 +1,7 @@
 <template>
-  <div
+  <footer
     :class="`${
-      isContactPage ? 'fixed bottom-0 w-full' : ''
+      isContactPage ? 'relative md:fixed md:bottom-0 w-full' : ''
     } bg-raisinBlack flex flex-col items-center justify-center text-white pt-10 pb-2`"
   >
     <div class="flex flex-row items-center justify-center gap-4">
@@ -9,10 +9,12 @@
         href="https://www.linkedin.com/in/franziska-pendzialek/"
         target="_blank"
       >
-        <component :is="linkedinSVG" />
+        <span class="visuallyhidden">Franziska on Linkedin</span>
+        <component :is="linkedinSVG" alt="linkedin icon" />
       </a>
       <a href="https://github.com/franziskapendzialek" target="_blank">
-        <component :is="githubSVG" />
+        <span class="visuallyhidden">Franziska on Github</span>
+        <component :is="githubSVG" alt="github icon" />
       </a>
     </div>
     <nuxt-link to="/imprint" class="underline-gradient mt-4 my-2">
@@ -20,7 +22,7 @@
     </nuxt-link>
 
     <div class="text-sm mt-6">{{ footer.copyright }}</div>
-  </div>
+  </footer>
 </template>
 
 <script lang="ts" setup>

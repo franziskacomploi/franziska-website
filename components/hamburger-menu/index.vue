@@ -6,7 +6,7 @@
     <component
       class="w-[40px] h-[40px]"
       :is="hamburgerIcon"
-      alt="hamburger-menu"
+      alt="hamburger icon"
     />
   </button>
 </template>

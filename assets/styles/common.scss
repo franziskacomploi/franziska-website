@@ -1,6 +1,6 @@
 
   .headline-xl {
-    @apply text-4xl md:text-7xl font-serif;
+    @apply text-4xl md:text-6xl font-serif;
   }
 
   .content-big {
@@ -37,4 +37,16 @@
       rgb(129,151,160, 1) 27%,
       rgb(29,62,73, 1)100%
     );
+  }
+
+  /* Accessibility class */
+  .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
   }
