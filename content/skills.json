@@ -2,11 +2,11 @@
   "title": "Skills",
   "subTitle1": "Programming Languages",
   "skills1": [
-    "Javascript", "Typescript", "Python"
+    "Javascript", "Typescript", "Python", "SQL", "R"
   ],
   "subTitle2": "Tech Stack", 
   "skills2": [
-    "Git & Github", "Web Responsiveness & Accessibility", "REST Api & GraphQL", "State Management", "Databases (Non relational & relational)", "Deployment (CI/CD Pipeline)", "Debugging & Logging", "Testing", "Content Management"
+    "Git & Github", "Data Analytics", "Jupyter", "Web Responsiveness & Accessibility", "REST Api & GraphQL", "State Management", "Databases (Non relational & relational)", "Deployment (CI/CD Pipeline)", "Debugging & Logging", "Testing", "Content Management"
   ],
   "subTitle3": "Soft Skills", 
   "skills3": [
