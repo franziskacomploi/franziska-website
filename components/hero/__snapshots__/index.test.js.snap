@@ -9,24 +9,24 @@ exports[`Hero > should render correctly 1`] = `
     class="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mb-4 md:my-16"
   >
     <div>
-      <div
+      <p
         class="text-2xl font-light"
       >
         Software Engineer
-      </div>
-      <div
+      </p>
+      <p
         class="headline-xl"
       >
         Franziska 
         <br />
-         Pendzialek
-      </div>
+         Comploi
+      </p>
     </div>
     <div
       class="w-80 h-80 rounded-full bg-charcoal shadow flex flex-row items-center justify-center"
     >
       <img
-        alt="franziska-profile-image"
+        alt="franziska profile image"
         class="w-[300px] h-[300px] rounded-full"
         loading="lazy"
         src="/assets/images/hero-image.jpeg"
@@ -35,17 +35,17 @@ exports[`Hero > should render correctly 1`] = `
     <div
       class="border-l-2"
     >
-      <div
+      <p
         class="content-big font-light py-4 ml-4 w-72"
       >
         I'm a Software Engineer and in love with coffee, knitting and good books.
-      </div>
+      </p>
     </div>
   </div>
   <div
     class="content-big flex flex-col md:flex-row gap-5 md:gap-4 items-center justify-evenly bg-cultured text-center pt-8 md:pt-16 px-10 md:px-auto"
   >
-    <div>
+    <p>
       Based in 
       <br />
       <span
@@ -53,8 +53,8 @@ exports[`Hero > should render correctly 1`] = `
       >
         Potsdam, Germany & Berlin
       </span>
-    </div>
-    <div>
+    </p>
+    <p>
       Experience 
       <br />
       <span
@@ -62,16 +62,16 @@ exports[`Hero > should render correctly 1`] = `
       >
         2+ years
       </span>
-    </div>
-    <div>
+    </p>
+    <p>
       Focus on 
       <br />
       <span
         class="font-bold"
       >
-        Product & Engineering
+        Data & Engineering
       </span>
-    </div>
+    </p>
   </div>
   
 </div>
